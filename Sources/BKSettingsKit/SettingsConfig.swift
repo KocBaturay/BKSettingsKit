@@ -9,16 +9,16 @@ import Foundation
 
 public struct SettingsConfig {
     public let appVersion: String
-    public let companyName: String
+    public let appName: String
     public let isUserSubscribed: Bool
     
     public init(
         appVersion: String,
-        companyName: String,
+        appName: String,
         isUserSubscribed: Bool = false
     ) {
         self.appVersion = appVersion
-        self.companyName = companyName
+        self.appName = appName
         self.isUserSubscribed = isUserSubscribed
     }
 }

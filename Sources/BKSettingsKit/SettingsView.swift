@@ -88,7 +88,7 @@ private extension SettingsView {
             .padding()
             .background(
                 LinearGradient(
-                    colors: [Color.orange, Color.white],
+                    colors: [Color.orange.opacity(0.8), Color.white],
                     startPoint: .topLeading,
                     endPoint: .bottomTrailing
                 )
@@ -110,7 +110,7 @@ private extension SettingsView {
     }
     
     var footer: some View {
-        return Text("Version: \(config.appVersion)\n\(config.companyName)")
+        return Text("Version: \(config.appVersion)\n\(config.appName)")
             .font(.subheadline)
             .foregroundStyle(.white.opacity(0.5))
             .multilineTextAlignment(.center)
