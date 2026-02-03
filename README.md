@@ -1,22 +1,22 @@
 # SettingsKit
 
-A SwiftUI Settings SDK that provides a standardized, professional and simple settings interface for any app. It features a built-in call-to-action banner, modular settings items, and automatic footer branding.
+A SwiftUI Settings SDK that provides a standardized, professional and simple settings interface for any app. It features a built-in paywall banner, modular settings items, and automatic footer branding.
 
-![](Resources_Settings/settings.png)
+![](Resources_Settings/settings_new.png)
 
 ---
 
 ## Features
 
-- **💎 Premium Banner**: Integrated "Become a Pro" banner that automatically hides when isUserSubscribed is true.
+- **Premium Banner**: Integrated "Become a Pro" banner that automatically hides when isUserSubscribed is true.
 
-- **🛠 Action-Driven UI**: Pre-defined actions for Rating, Sharing, URL opening, and custom Sheet presentations.
+- **Actions**: Pre-defined actions for Rating, Sharing, URL opening, and custom Sheet presentations.
 
-- **📱 Auto-Footer**: Displays the App Name and Version automatically at the bottom of the list.
+- **Auto-Footer**: Displays the App Name and Version automatically at the bottom of the list.
 
-- **🧩 Extensible**: Easily add or remove settings items without changing the view layout.
+- **Extensible**: Easily add or remove settings items without changing the view layout.
   
-- **😻 Optional RevenueCat Customer Center**: Access RevenueCat Customer Center to view subscription and customer information. *Requires RevenueCat SDK*
+- **Optional RevenueCat Customer Center**: Access RevenueCat Customer Center to view subscription and customer information. *Requires RevenueCat SDK*
 
 ---
 
