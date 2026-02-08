@@ -25,7 +25,7 @@ A SwiftUI Settings SDK that provides a standardized, professional and simple set
 Swift Package Manager (SPM)
 In Xcode, go to File > Add Packages...
 
-Enter the repository URL: [BKSettingsKit](https://github.com/FallikTheCat/BKSettingsKit)
+Enter the repository URL: [BKSettingsKit](https://github.com/KocBaturay/BKSettingsKit)
 
 Select Up to Next Major Version and click Add Package.
 
